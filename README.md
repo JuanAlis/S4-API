@@ -24,7 +24,7 @@ Sigue estos pasos para instalar y ejecutar el proyecto localmente:
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tu-usuario/s4-api.git
+git clone https://github.com/JuanAlis/S4-API.git
 
 # Moverse al directorio del proyecto
 cd s4-api
