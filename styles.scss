@@ -1,0 +1,270 @@
+
+
+
+body{
+    background-image: url(https://www.nobbot.com/wp-content/uploads/2020/08/pinterest-fondos-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden
+}
+
+
+.card{
+    margin-top: 10%;
+    max-width: 800px;
+    max-height: 400px;
+    justify-content: center;
+    align-content: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    background-color: white;
+}
+
+.card:hover{
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+}
+
+.card-header{
+    border: 0;
+    background-color: white;
+
+}
+.card-footer{
+    border: 0;
+    background-color: white;
+
+}
+
+.tiempo{
+    font-weight: bold;
+}
+
+.btn{
+    max-width: fit-content;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+@media (max-width: 576px) {
+    .btn{
+        font-size: 0.8rem !important;
+        padding: 0.25rem 0.5rem
+    }
+    .a{
+        margin-top: 0;
+    }
+    .b {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+.a{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
+
+.a:hover {
+    transform: translateY(-5px);
+    background-color: red;
+    border: 1px solid black;
+
+}
+.b{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+} 
+
+.b:hover{
+    transform: translateY(-5px);
+    background-color: orange;
+    border: 1px solid black;
+
+}
+
+.c{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
+.c:hover{
+    transform: translateY(-5px);
+    background-color: green;
+    border: 1px solid black;
+
+}
+
+
+.z{
+    border-radius: 100px;
+    border: 1px solid black;
+}
+
+.z:hover{
+    transform: translateY(-5px);
+    background-color: purple;
+    border: 1px solid black;
+}
+
+
+//Esta clase cumple las necesidades
+.magicpattern1 { 
+    margin-top: 0;
+    top: 0;
+    width: 600px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+    background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3CclipPath id=%22b%22%3E%3Cpath fill=%22currentColor%22 d=%22M887.5 639.5Q832 779 709 883.5t-288 72q-165-32.5-234.5-174T102 495q-15-145 83.5-257T433 80q149-46 269.5 51.5t180.5 233q60 135.5 4.5 275Z%22%2F%3E%3C%2FclipPath%3E%3Cfilter id=%22a%22 x=%22-50vw%22 y=%22-50vh%22 width=%22100vw%22 height=%22100vh%22%3E%3CfeFlood flood-color=%22%23fff%22 result=%22neutral-gray%22%2F%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%222.5%22 numOctaves=%22100%22 stitchTiles=%22stitch%22 result=%22noise%22%2F%3E%3CfeColorMatrix in=%22noise%22 type=%22saturate%22 values=%220%22 result=%22destaturatedNoise%22%2F%3E%3CfeComponentTransfer in=%22desaturatedNoise%22 result=%22theNoise%22%3E%3CfeFuncA type=%22table%22 tableValues=%220 0 0.5 0%22%2F%3E%3C%2FfeComponentTransfer%3E%3CfeBlend in=%22SourceGraphic%22 in2=%22theNoise%22 mode=%22soft-light%22 result=%22noisy-image%22%2F%3E%3C%2Ffilter%3E%3C%2Fdefs%3E%3Cg filter=%22url(%23a)%22 clip-path=%22url(%23b)%22%3E%3Cpath fill=%22%23444cf7%22 d=%22M887.5 639.5Q832 779 709 883.5t-288 72q-165-32.5-234.5-174T102 495q-15-145 83.5-257T433 80q149-46 269.5 51.5t180.5 233q60 135.5 4.5 275Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+
+//Esta clase cumple las necesidades
+.magicpattern2 { 
+    margin-top: 0;
+    top: 0;
+    width: 600px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+    background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M909 634q-40 134-162 193T486.5 927.5q-138.5 41.5-257-52T74 641Q37 500 84 366t158.5-225q111.5-91 259-95T754 140.5q105 98.5 150 229t5 264.5Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22%23444cf7%22 d=%22M909 634q-40 134-162 193T486.5 927.5q-138.5 41.5-257-52T74 641Q37 500 84 366t158.5-225q111.5-91 259-95T754 140.5q105 98.5 150 229t5 264.5Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+//Esta clase cumple las necesidades
+.magicpattern3 { 
+    margin-top: 0;
+    top: 0;
+    width: 600px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+    background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M871 664q-43 164-207 216t-332.5 4.5q-168.5-47.5-212-216t25-312Q213 213 356.5 109t287 0q143.5 104 207 247.5T871 664Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22%23444cf7%22 d=%22M871 664q-43 164-207 216t-332.5 4.5q-168.5-47.5-212-216t25-312Q213 213 356.5 109t287 0q143.5 104 207 247.5T871 664Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+
+//Esta clase cumple las necesidades
+.magicpattern4 { 
+    margin-top: 0;
+    top: 0;
+    width: 600px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+    background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M906 644q-10 144-150.5 176.5t-263 56Q370 900 255 830.5t-112-200q3-130.5-21.5-277T229 140q132-67 275.5-81.5t214.5 108q71 122.5 134 228T906 644Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22%23444cf7%22 d=%22M906 644q-10 144-150.5 176.5t-263 56Q370 900 255 830.5t-112-200q3-130.5-21.5-277T229 140q132-67 275.5-81.5t214.5 108q71 122.5 134 228T906 644Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+
+//Esta clase cumple las necesidades
+.magicpattern5 { 
+    margin-top: 0;
+    top: 0;
+    width: 600px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+    background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M952.5 647Q905 794 780 885t-280 91q-155 0-280-91T47.5 647Q0 500 47.5 353T220 115q125-91 280-91t280 91q125 91 172.5 238t0 294Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22%23444cf7%22 d=%22M952.5 647Q905 794 780 885t-280 91q-155 0-280-91T47.5 647Q0 500 47.5 353T220 115q125-91 280-91t280 91q125 91 172.5 238t0 294Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+.sub{
+    font-size: 18px;
+}
+
+
+.texto{
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    height: auto;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+@media(max-width:576px){
+    .texto, .t{
+        font-size: small;
+    }
+    .sub{
+        font-size: 13px;
+    }
+}
+
+
+
+//Esta clase funciona correctamente 
+.magicpattern { 
+    margin-top: 0;
+    top: 0;
+    width: 600px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+    background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M869 605.5q-79 105.5-155.5 211T513 882q-124-40-216-104T130.5 607Q56 500 128 391t161.5-186Q379 128 506 109.5t223 68Q825 264 886.5 382T869 605.5Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22%23444cf7%22 d=%22M869 605.5q-79 105.5-155.5 211T513 882q-124-40-216-104T130.5 607Q56 500 128 391t161.5-186Q379 128 506 109.5t223 68Q825 264 886.5 382T869 605.5Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+
+.row{
+    margin-top: 0;
+}
+

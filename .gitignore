@@ -1,0 +1,14 @@
+# Ignorar archivos compilados de TypeScript
+index.js
+
+# Ignorar dependencias
+node_modules/
+package-lock.json
+package.json
+
+# Ignorar archivos generados por SASS
+styles.css
+styles.css.map
+
+# Ignorar configuración
+tsconfig.json
