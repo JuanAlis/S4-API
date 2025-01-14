@@ -1,6 +1,7 @@
 # Ignorar archivos compilados de TypeScript
 index.js
-
+#Ignorar html
+index.html
 # Ignorar dependencias
 node_modules/
 package-lock.json
