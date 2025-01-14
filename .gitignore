@@ -4,12 +4,10 @@ index.js
 index.html
 # Ignorar dependencias
 node_modules/
-package-lock.json
-package.json
+
 
 # Ignorar archivos generados por SASS
 styles.css
 styles.css.map
 
-# Ignorar configuración
-tsconfig.json
+
