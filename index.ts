@@ -3,6 +3,7 @@ const laMeteo = document.getElementById("laMeteo");
 let currentScore: number | null = null;
 let jokeData: Datos | null = null;
 const jokesArray: Datos[] = [];
+const card =document.getElementById("card");
 
 class Datos{
     jokeName :string;
@@ -53,7 +54,9 @@ const callApi = async () =>{
         } else{
             console.log("Broma aceptada")
             console.log(dadJoke,"Dad");
+            if(broma){
             broma.innerHTML = dadJoke;
+            }
         }
 
         if(jokeData) {
@@ -97,7 +100,9 @@ const meteo = () =>{
         const temperatura = data.data[0].temperature
         console.log(temperatura)
         console.log(data.data[0].summary)
+        if(laMeteo){
         laMeteo.innerHTML = tiempo, temperatura
+        }
     })
 	
 };
@@ -129,7 +134,10 @@ const chuckNorris = async () =>{
     } else {
         console.log("Broma aceptada")
         console.log(chuckJoke,"Chuck");
+        if(broma){
         broma.innerHTML = chuckJoke;
+
+        }
     
 
 
@@ -144,7 +152,7 @@ const chuckNorris = async () =>{
         console.log(jokesArray);
     }
     };
-
+    
     card?.classList.add("magicpattern5");
 
 const llamadaAleatoria = async () =>{
@@ -153,8 +161,6 @@ const llamadaAleatoria = async () =>{
     await funciones[randomIndex]();
 
     const clases =["magicpattern","magicpattern1","magicpattern2","magicpattern3","magicpattern4","magicpattern5"] 
-    const card =document.getElementById("card");
-
     card?.classList.remove(...clases, "card");
 
     const randomClass =clases[Math.floor(Math.random()*clases.length)];
