@@ -1,7 +1,8 @@
 # Ignorar archivos compilados de TypeScript
 index.js
 #Ignorar html
-index.html
+index2
+.html
 # Ignorar dependencias
 node_modules/
 
