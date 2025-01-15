@@ -76,7 +76,7 @@ const dataScore= (score:number): number  =>{
 if (jokeData) {
     jokeData.setScore(score);
 }
-console.log(jokeData.toString());
+console.log(jokeData?.toString());
     return score;
 }
 
@@ -145,7 +145,7 @@ const chuckNorris = async () =>{
     }
     };
 
-card?.classList.add("magicpattern5");
+    card?.classList.add("magicpattern5");
 
 const llamadaAleatoria = async () =>{
     const funciones= [callApi,chuckNorris]

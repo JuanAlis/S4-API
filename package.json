@@ -4,9 +4,6 @@
     "typescript": "^5.7.2"
   },
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/index.js",
-    "watch": "tsc --watch",
     "build:sass": "sass styles.scss styles.css",
     "watch:sass": "sass styles.scss styles.css --watch"
   }

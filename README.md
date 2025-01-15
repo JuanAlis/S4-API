@@ -33,10 +33,10 @@ cd s4-api
 npm install
 
 # Compilar SASS a CSS
-npm run sass
+npm "watch:sass"
 
 # Ejecutar el proyecto
-npm start
+npx tsc --watch
 ```
 
 ---
